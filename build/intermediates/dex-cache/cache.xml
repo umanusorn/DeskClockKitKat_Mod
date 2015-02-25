@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="Q:\Android\androidWorkspace\DeskClock\app\libs\android-support-v13.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="67a612e91a8c7f89536d5cf896fdfef7269a285d">
+        <dex dex="Q:\Android\androidWorkspace\DeskClock\app\build\intermediates\pre-dexed\debug\android-support-v13-9d53a4a1e8b9d33ea67dd5c6c07b9d41d05b1c29.jar" />
+    </item>
+    <item
+        jar="Q:\Android\androidWorkspace\DeskClock\app\build\intermediates\exploded-aar\DeskClock\datetimepicker\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7366723dce097202e57a01c995df5dc482171a15">
+        <dex dex="Q:\Android\androidWorkspace\DeskClock\app\build\intermediates\pre-dexed\debug\classes-25c1b2ace4f48b42c750a2be4f7ab6fd03405af5.jar" />
+    </item>
+    <item
+        jar="Q:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="Q:\Android\androidWorkspace\DeskClock\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-e018b178d98f28b109db966e9f0b11e8ec615f2e.jar" />
+    </item>
+
+</items>

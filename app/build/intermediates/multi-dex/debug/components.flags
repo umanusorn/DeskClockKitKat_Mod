@@ -1,0 +1,106 @@
+-injars 'Q:\Android\androidWorkspace\DeskClock\app\build\intermediates\multi-dex\debug\allclasses.jar'
+-outjars 'Q:\Android\androidWorkspace\DeskClock\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'Q:\Android\sdk\build-tools\21.1.1\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontpreverify
+-dontwarn
+-printconfiguration 'Q:\Android\androidWorkspace\DeskClock\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class null {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class app.umitems.healthclock.provider.ClockProvider {
+    <init>();
+}
+
+-keep class app.umitems.healthclock.DeskClock {
+    <init>();
+}
+
+-keep class app.umitems.healthclock.SettingsActivity {
+    <init>();
+}
+
+-keep class app.umitems.healthclock.worldclock.CitiesActivity {
+    <init>();
+}
+
+-keep class app.umitems.healthclock.alarms.AlarmActivity {
+    <init>();
+}
+
+-keep class app.umitems.healthclock.ScreensaverActivity {
+    <init>();
+}
+
+-keep class app.umitems.healthclock.alarms.AlarmStateManager {
+    <init>();
+}
+
+-keep class app.umitems.healthclock.alarms.AlarmService {
+    <init>();
+}
+
+-keep class app.umitems.healthclock.HandleApiCalls {
+    <init>();
+}
+
+-keep class app.umitems.healthclock.AlarmInitReceiver {
+    <init>();
+}
+
+-keep class app.umitems.alarmclock.AnalogAppWidgetProvider {
+    <init>();
+}
+
+-keep class app.umitems.alarmclock.DigitalAppWidgetProvider {
+    <init>();
+}
+
+-keep class app.umitems.alarmclock.DigitalAppWidgetService {
+    <init>();
+}
+
+-keep class app.umitems.alarmclock.DigitalWidgetViewsFactory {
+    <init>();
+}
+
+-keep class app.umitems.healthclock.Screensaver {
+    <init>();
+}
+
+-keep class app.umitems.healthclock.ScreensaverSettingsActivity {
+    <init>();
+}
+
+-keep class app.umitems.healthclock.timer.TimerAlertFullScreen {
+    <init>();
+}
+
+-keep class app.umitems.healthclock.TimerRingService {
+    <init>();
+}
+
+-keep class app.umitems.healthclock.timer.TimerReceiver {
+    <init>();
+}
+
+-keep class app.umitems.healthclock.stopwatch.StopwatchService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

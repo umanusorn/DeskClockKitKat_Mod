@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <color name="ampm_off">#54d47f</color>
+    <color name="ampm_on">#ffffffff</color>
+    <color name="time_text_color">#E6FFFFFF</color>
+    <color name="ampm_text_color">#99FFFFFF</color>
+    <color name="screen_saver_color">#FF006688</color>
+    <color name="screen_saver_dim_color">#FF001634</color>
+    <color name="action_bar_button_text_color">#FFFFFF</color>
+    <color name="dialog_gray">#c9ffdd</color>
+
+    <color name="black">#399057</color>
+    <!-- If this color is changed or no longer used as the primary background, ensure that blackish_trans is changed as well.
+    <color name="DarkGreen">#1c1e20</color>
+
+    <color name="blackish_selected">#0cffffff</color>
+
+    -->
+    <color name="DarkGreen">#399057</color>
+    <color name="blackish">#399057</color>
+    <color name="blackish_trans">#99399057</color>
+    <color name="blackish_selected">#99399057</color>
+    <!-- Transparent background for use in the footer. 80% opacity. The color must remain the same as "blackish" above.
+    <color name="blackish_trans">#cc1c1e20</color>
+    -->
+
+    <color name="white">#ffffffff</color>
+    <color name="red">#ffee0000</color>
+    <color name="grey">#ffc9ffdd</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_white">#66c9ffdd</color>
+    <color name="alarm_whiteish">#399057</color><!-- Just put lightGreen to recognize current Alarm -->
+
+    <color name="main_button_normal">#54d47f</color>
+    <color name="main_button_selected">#54d47f</color>
+    <color name="main_button_red_normal">#ff4444</color> <!-- same as clock_red -->
+    <color name="main_button_red_selected">#c0ff4444</color>
+
+    <color name="clock_red">#ffffffff</color>
+    <color name="clock_white">#ffffff</color>
+    <color name="clock_gray">#80c9ffdd</color>
+    <color name="clock_blue">#ff33b5e5</color>
+    <color name="notification_bg">#ff15444F</color>
+    <color name="alarm_selected_color">#aa0099cc</color>
+
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#c9ffdd</drawable>
+
+    <color name="alarm_timeline_color">#54d47f</color>
+</resources>
